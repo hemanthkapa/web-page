@@ -16,8 +16,7 @@ id: home
     </div>
 </div>
 
-
-
+<!-- Recently Updated Notes Section -->
 <strong>Recently updated notes</strong>
 
 <ul>
