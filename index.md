@@ -7,16 +7,15 @@ id: home
 
 ---
 
-<table>
-  <tr>
-    <td>
-      <img src="assets/images/IMG_5994.jpeg" alt="Image description" width="250" height="150"/>
-    </td>
-    <td>
-      Welcome to my corner of the internet, a place where I share my thoughts in all shapes and sizes. Here, you'll find an eclectic mix of notes- some are brief sparks of inspiration meant to solve immediate challenges, visible to the world for shared utility. Others are elaborate journeys through the vast landscapes of big ideas, offering a deeper dive into the subjects that fascinate me. This space is not just a collection of words, but a reflection of my intellectual odyssey, constantly evolving and growing.
-    </td>
-  </tr>
-</table>
+<div style="display: flex; align-items: flex-start;">
+    <div style="margin-right: 20px;">
+        <img src="assets/images/IMG_5994.jpeg" alt="Image" style="max-width: 150px; height: auto;">
+    </div>
+    <div>
+        Welcome to my corner of the internet, a place where I share my thoughts in all shapes and sizes. Here, you'll find an eclectic mix of notes- some are brief sparks of inspiration meant to solve immediate challenges, visible to the world for shared utility. Others are elaborate journeys through the vast landscapes of big ideas, offering a deeper dive into the subjects that fascinate me. This space is not just a collection of words, but a reflection of my intellectual odyssey, constantly evolving and growing.
+    </div>
+</div>
+
 
 
 <strong>Recently updated notes</strong>
