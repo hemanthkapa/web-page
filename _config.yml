@@ -1,6 +1,7 @@
 title: Hemanth's digital garden
 url: "https://zesty-starlight-5f6b13.netlify.app/"
 favicon: 🥬
+include: ["_pages"]
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: America/New_York
