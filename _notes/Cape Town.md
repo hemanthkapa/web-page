@@ -6,17 +6,18 @@ favicon: 💭
 
 As I sit down to reflect on my first few days in Cape Town, memories rush through me like a river carving its way through a canyon. It all started on March 10th, when I embarked on my very first international flight from Hyderabad, India. The thrill of beginning a new chapter in my life was palpable, but so was the fear of the unknown.
 
-![[Pasted image 20231217195839.png#center]]
+![[Pasted image 20231217195839.png#center|300]]
 After a brief layover in Dubai, I finally met some of the companions with whom I would be spending the next three months in Cape Town. As we exchanged pleasantries and shared casual chats, a wave of anticipation mounted within us, building to a crescendo of excitement for the adventure that lay ahead. And then, we landed in Cape Town. The beauty of the city was truly mesmerising - the clear sky, stunning views of Table Mountain, and the refreshing sea breeze were all breathtaking. I felt grateful and lucky to have the opportunity to experience such natural splendour.
 
-![[Pasted image 20231217195854.png#left|300]]
-The Take Action Lab team welcomed us warmly, and I was escorted to my new home - the famous "Big Red House." It's amazing how everyone in the neighbourhood knows about it, from the apprenticeship supervisors to the street vendors. It almost felt like the house was a celebrity, and I couldn't help but chuckle at the thought.
+![[Pasted image 20231217195854.png#left|200]]  ![[Pasted image 20231217230311.png#right|200]]
+
+The Take Action Lab team welco. ed us warmly, and I was escorted to my new home - the famous "Big Red House." It's amazing how everyone in the neighbourhood knows about it, from the apprenticeship supervisors to the street vendors. It almost felt like the house was a celebrity, and I couldn't help but chuckle at the thought.
 
 Completing all the necessary formalities, I received my food coupons and set out to explore the neighbourhood with my friends. That's when we stumbled upon Timbuktu, an Ethiopian restaurant. Hidden amidst a lush thicket of bushes and greenery, it was a challenge to find - but oh, was it worth the search!
 
 The menu was entirely foreign to me, and I had never heard of any of the dishes. However, the kind waitress suggested the Lamb Ribs, a delectable lamb gravy served with a special Ethiopian bread called Injera. Each bite was a symphony of flavours that brought me right back home to India, to the comforting taste of Dosa with mutton curry.
 
-![[Pasted image 20231217195913.png#left|300]]
+![[Pasted image 20231217195913.png#center|300]]
 As the days continued to unfold, I found myself deeply immersed in the enriching orientation program at the Take Action Lab. Exploring the Company Gardens, with its intricate tapestry of history and culture, left me in awe of Cape Town's captivating charm. And as night fell, we gathered at Wild Fig, where the warm company of the TAL staff, the CEO of GCY, and my fellow peers was nothing short of delightful.
 
 ![[Pasted image 20231217195944.png#center|500]]
@@ -28,4 +29,4 @@ But it was our hike to Signal Hill that left an indelible mark on my soul. As we
 
 As I conclude this first instalment of my reflections on my time in Cape Town, I am struck by how much I have already experienced and how much there is yet to come. In Part 2 of my journey, I look forward to diving deeper into my apprenticeship, learning new skills, and making a positive impact on the world around me. I can't wait to share my continued experiences and insights with all of you. Until then, stay tuned for the next chapter of my Cape Town adventure!
 
-![[Pasted image 20231217200013.png#center|500]]
+![[Pasted image 20231217200013.png#center|300]]
