@@ -7,7 +7,7 @@ favicon: 🎨
 > 💡 Crafting an ornament named **Life** by beautifully arranging beads called **Memories**.
 
 
-<div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 20px;">
+<div class="about-content" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 20px;">
     <div style="flex: 1;">
         <img src="assets/images/IMG_7489.jpeg" alt="Image" style="width: 100%; height: auto; border-radius: 10px;">
     </div>
@@ -24,15 +24,15 @@ favicon: 🎨
 </div>
 
 <style>
-    ul {
+    .about-content ul {
         padding-left: 20px;
     }
 
-    li {
+    .about-content li {
         margin-bottom: 10px;
     }
 
-    p, ul {
+    .about-content p, .about-content ul {
         font-size: 1em;
         line-height: 1.6;
     }

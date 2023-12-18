@@ -187,22 +187,58 @@ footer {
 }
 
 /* Archive Page */
-ul.archive, .archive li {
-  list-style-type: none;
-  margin-left: 0;
-  padding-left: 0
+ul.archive {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0;
 }
 
-.archive li {
-  margin: 1em 0 1.25em
+ul.archive li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 0;
+  border-bottom: 1px solid var(--text-color-faded);
 }
 
-.archive p {
-  margin-top: 0
+ul.archive li:last-child {
+  border-bottom: none;
 }
 
-.archive span {
-  opacity: 0.6
+ul.archive li a {
+  font-weight: 600;
+  color: var(--heading-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+ul.archive li a:hover {
+  color: var(--primary-color);
+}
+
+ul.archive span {
+  color: var(--text-color-faded);
+  font-size: 0.85rem;
+}
+
+ul.archive p {
+  color: var(--text-color);
+  font-size: 0.75rem;
+  margin: 0.5em 0 0;
+}
+
+/* Emojis as icons */
+ul.archive li:before {
+  content: "📄";
+  margin-right: 0.5em;
+}
+
+/* Responsive design for archive items */
+@media (max-width: 768px) {
+  ul.archive li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /* Tables in Markdown */
