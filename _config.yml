@@ -1,51 +1,57 @@
 title: Hemanth's digital garden
 url: "https://zesty-starlight-5f6b13.netlify.app/"
 favicon: 🥬
-include: ["_pages"]
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: America/New_York
 
-# Comment out .htaccess if you're uploading to a non-Apache server such as Netlify
-include: [".htaccess"]
+# The 'include' field should list all directories and files that need to be included in the build process.
+# However, it should be stated only once with all necessary items in a single array.
+include: 
+  - "_pages"
+  - ".htaccess" # Include .htaccess only if you are using an Apache server. Comment out if on Netlify.
 
-# Remove obsidian-templates and delete the folder if you aren't using Obsidian Templates plugin
-exclude: ["_includes/notes_graph.json", "obsidian-templates"]
+# Exclude certain files or directories from the build process
+exclude: 
+  - "_includes/notes_graph.json"
+  - "obsidian-templates" # Remove this and the folder if not using Obsidian Templates plugin
 
-# If you are using a host that cannot resolve URLs that do
-# not end with .html (such as Neocities or Dreamhost), set this to 'true'.
+# Set this to 'true' if your host requires URLs to end with .html
 use_html_extension: true
 
-# 'True' displays notes graph at bottom of each note
-show_notes_graph: True
+# 'True' displays notes graph at the bottom of each note
+show_notes_graph: true
 
-# Set to `true` to open non-internal links in new tabs, or
-# set to `false` to open non-internal links in current tab.
+# Determines how non-internal links are opened
 open_external_links_in_new_tab: true
 
+# Default permalink structure
 permalink: slug
 
-# Set to 'true' to generate excerpts for pages. Notes are technically pages.
+# Set to 'true' to generate excerpts for pages
 page_excerpts: true
 
+# Plugins used in the site
 plugins:
   - jekyll-last-modified-at
 
+# Collections define custom groups of content within the Jekyll site.
 collections:
   notes:
     output: true
-    permalink: /:slug
+    permalink: /:slug # Set a custom permalink for items in the 'notes' collection
 
   pages:
     output: true
-    permalink: /:slug
+    permalink: /:slug # Set a custom permalink for items in the 'pages' collection
 
+# Default settings for pages and posts
 defaults:
   - scope:
-      path: "**/*"
+      path: "**/*" # Applies to all files
     values:
-      layout: "default"
+      layout: "default" # Use the "default" layout as the default
   - scope:
-      path: "_notes/**/*.md"
+      path: "_notes/**/*.md" # Applies to Markdown files in the '_notes' directory
     values:
-      layout: "note"
+      layout: "note" # Use the "note" layout for these files
