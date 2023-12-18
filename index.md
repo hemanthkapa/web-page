@@ -7,11 +7,11 @@ id: home
 
 ---
 
-<div style="display: block; margin-top: 20px;">
-    <div style="margin-bottom: 20px;">
-        <img src="assets/images/IMG_5994.jpeg" alt="Image" style="max-width: 700px; width: 100%; height: auto; border-radius: 10px;">
+<div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 20px;">
+    <div style="flex: 1; max-width: 700px;">
+        <img src="assets/images/IMG_5994.jpeg" alt="Image" style="width: 100%; height: auto; border-radius: 10px;">
     </div>
-    <div style="padding: 20px; background-color: rgba(156, 213, 56, .08); border-radius: 10px;">
+    <div style="flex: 2; padding: 20px; background-color: rgba(156, 213, 56, .08); border-radius: 10px;">
         Welcome to my corner of the internet, a place where I share my thoughts in all shapes and sizes. Here, you'll find an eclectic mix of notes- some are brief sparks of inspiration meant to solve immediate challenges, visible to the world for shared utility. Others are elaborate journeys through the vast landscapes of big ideas, offering a deeper dive into the subjects that fascinate me. This space is not just a collection of words, but a reflection of my intellectual odyssey, constantly evolving and growing.
     </div>
 </div>
