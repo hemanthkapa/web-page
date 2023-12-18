@@ -1,10 +1,11 @@
 ---
 layout: page
 title: About
-favicon: 
+favicon: 🎨
 ---
 
-**Doing what I do best**—meticulously documenting everything.
+> 💡 Crafting an ornament named ****Life**** by beautifully arranging beads called ****Memories****.
 
-## Why?
-Mostly for my own reference, but also because I'm learning Jekyll as I edit this template. I'm doing this as a replacement for my previous [digital garden template](https://megu.space) which was based in Wordpress. Markdown and Obsidian help me gather knowledge and write better content, faster.
+I'm a 19-year-old from India, currently delving into the realms of Computer Science and Neuroscience at Dickinson College. Fascinated by the uncharted territories of life, I'm passionately exploring the intricte world of aging, AI, and medical technology. My mission is simple yet profound: solve hard and non-obvious problems that uplift and transform human lives.
+
+Currently,
