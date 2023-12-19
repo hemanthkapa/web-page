@@ -3,8 +3,6 @@ layout: page
 title: Archive
 ---
 
-<h1>Archive</h1>
-
 <table class="archive-table">
   <thead>
     <tr>
