@@ -187,80 +187,37 @@ footer {
 }
 
 /* Archive Page */
-ul.archive, .archive li {
-  list-style-type: none;
-  margin-left: 0;
-  padding-left: 0
-}
-
-.archive li {
-  margin: 1em 0 1.25em
-}
-
-.archive p {
-  margin-top: 0
-}
-
-.archive span {
-  opacity: 0.6
-}
-
-/* Tables in Markdown */
-table {
-  max-width: min-content;
-}
-
-table, table>*>*>* {
-  border: 1px solid var(--text-color-faded);
+.archive-table {
+  width: 100%;
   border-collapse: collapse;
-  color: var(--heading-color);
+  margin-top: 20px;
 }
 
-table th, table td {
-  padding: 0.25em 0.5em
+.archive-table th, .archive-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
-/* Links */
-a {
-  transition: all 300ms;
-  font-weight: 600;
-  color: var(--heading-color);
-  border-bottom: 4px solid var(--primary-color);
+.archive-table thead {
+  background-color: #f2f2f2;
+}
+
+.archive-table th {
+  font-weight: bold;
+}
+
+.archive-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.archive-table a.internal-link {
+  color: #007bff;
   text-decoration: none;
 }
 
-a:hover, a:focus {
-  transition: all 300ms;
-  background: var(--primary-color);
-}
-
-a::after {
-  font-size: 0.7em;
-  content: "↗";
-  color: var(--text-color-faded);
-  top: -0.5em;
-  position: relative;
-}
-
-/* Need to exclude a img arrow for external links eventually */
-a.internal-link:after, a.footnote-backref:after {
-  content: "";
-}
-
-*:focus {
-  background: var(--primary-color);
-}
-
-.invalid-link {
-  color: var(--text-color-faded);
-  cursor: help;
-  background: var(--callout-background);
-  padding: 0 0.1em
-}
-
-.invalid-link-brackets {
-  color: #ccc;
-  cursor: help
+.archive-table a.internal-link:hover {
+  text-decoration: underline;
 }
 
 /* Footnotes */
