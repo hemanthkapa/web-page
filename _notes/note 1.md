@@ -3,7 +3,8 @@ title: Capetown Adventures
 category: Experience
 favicon: 🎨
 ---
-![img1](assets/images/Pasted image 20231218194111.png)
+<img src="assets/images/Pasted image 20231218194111.png" alt="Description" style="width: 300px; height: auto;">
+
 As I sit down to reflect on my first few days in Cape Town, memories rush through me like a river carving its way through a canyon. It all started on March 10th, when I embarked on my very first international flight from Hyderabad, India. The thrill of beginning a new chapter in my life was palpable, but so was the fear of the unknown.
 
 After a brief layover in Dubai, I finally met some of the companions with whom I would be spending the next three months in Cape Town. As we exchanged pleasantries and shared casual chats, a wave of anticipation mounted within us, building to a crescendo of excitement for the adventure that lay ahead. And then, we landed in Cape Town. The beauty of the city was truly mesmerising - the clear sky, stunning views of Table Mountain, and the refreshing sea breeze were all breathtaking. I felt grateful and lucky to have the opportunity to experience such natural splendour.
@@ -23,4 +24,4 @@ But it was our hike to Signal Hill that left an indelible mark on my soul. As we
 
 As I conclude this first instalment of my reflections on my time in Cape Town, I am struck by how much I have already experienced and how much there is yet to come. In Part 2 of my journey, I look forward to diving deeper into my apprenticeship, learning new skills, and making a positive impact on the world around me. I can't wait to share my continued experiences and insights with all of you. Until then, stay tuned for the next chapter of my Cape Town adventure!
 
-![[Pasted image 20231218195611.png#center]]
+<img src="assets/images/Pasted image 20231218195611.png" alt="Description" style="width: 400px; height: auto;">
