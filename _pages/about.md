@@ -29,79 +29,30 @@ favicon: 🎨
         <a href="https://twitter.com/kapahemanth" target="_blank">Twitter</a>
     </div>
 </div>
-
+</div>
 
 <style>
-
-    .about-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.about-content > div {
-  flex: 1 1 100%; /* Make each child take full width on smaller screens */
-}
-
-@media (min-width: 768px) { /* Adjust this breakpoint as needed */
-  .about-content {
-    align-items: flex-start;
-  }
-  
-  .about-content > div:first-child {
-    flex: 1;
-  }
-
-  .about-content > div:not(:first-child) {
-    flex: 2;
-  }
-}
-
-.about-content img {
-        width: 100%; /* Full width of its parent container */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 10px;
-        max-width: 300px; /* Default max width for mobile */
+    .about-content ul {
+        padding-left: 20px;
     }
 
-    @media (min-width: 768px) { /* Desktop and larger screens */
-        .about-content img {
-            max-width: 600px; /* Larger max width for desktop */
-        }
-
-        .about-content {
-            align-items: flex-start;
-        }
-
-        .about-content > div:first-child {
-            flex: 1;
-        }
-
-        .about-content > div:not(:first-child) {
-            flex: 2;
-        }
+    .about-content li {
+        margin-bottom: 10px;
     }
 
     .about-content p, .about-content ul {
-        font-size: 1em; 
+        font-size: 1em;
         line-height: 1.6;
     }
 
-    @media (max-width: 768px) {
-        .about-content p, .about-content ul {
-            font-size: 0.9em; /* Smaller font size for mobile */
-        }
-    }
-
-    .social-media-links a {
-        color: #000000;
+    .about-content a {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: var(--primary-color); /* Use your primary color */
         text-decoration: none;
-        padding: 5px; /* Easier to tap on mobile */
     }
 
-    .social-media-links a:hover, .social-media-links a:focus {
+    .about-content a:hover, .about-content a:focus {
         text-decoration: underline;
     }
-</style>
-
 </style>
