@@ -568,3 +568,8 @@ div.highlight pre {
 .highlight .il {
   color: #009999
 }
+
+img {
+  width: 200px; /* Adjust as needed */
+  height: auto;
+}
