@@ -71,10 +71,15 @@ h1, h2, h3, h4, h5, h6 {
 h1:first-of-type {
   font-size: 200%;
   line-height: 1;
+  margin-bottom: 0.5em;
 }
 
 h2+h3 {
   margin-top: 0.25em;
+}
+
+h2 {
+  margin-top: 0.5em; /* Reducing the top margin to decrease space */
 }
 
 h1+p, h2+p, h3+p {
