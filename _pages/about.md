@@ -32,29 +32,63 @@ favicon: 🎨
 
 
 <style>
-    .about-content ul {
-        padding-left: 20px;
-    }
 
-    .about-content li {
-        margin-bottom: 10px;
-    }
+    .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.about-content > div {
+  flex: 1 1 100%; /* Make each child take full width on smaller screens */
+}
+
+@media (min-width: 768px) { /* Adjust this breakpoint as needed */
+  .about-content {
+    align-items: flex-start;
+  }
+  
+  .about-content > div:first-child {
+    flex: 1;
+  }
+
+  .about-content > div:not(:first-child) {
+    flex: 2;
+  }
+}
+
+.about-content img {
+  width: 100%; /* Full width of its parent container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  max-width: 400px; /* You can adjust this value */
+}
+
 
     .about-content p, .about-content ul {
-        font-size: 1em;
-        line-height: 1.6;
-    }
+  font-size: 1em; /* Adjust if needed for smaller screens */
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .about-content p, .about-content ul {
+    font-size: 0.9em; /* Slightly smaller font size for mobile */
+  }
+}
+
 
 
     /* Existing styles ... */
 
-    .social-media-links a {
-        color: #000000; /* Sets the text color to black */
-        text-decoration: none;
-    }
+.social-media-links a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px; /* Easier to tap on mobile */
+}
 
-    .social-media-links a:hover, .social-media-links a:focus {
-        text-decoration: underline;
-    }
+.social-media-links a:hover, .social-media-links a:focus {
+  text-decoration: underline;
+}
+
 
 </style>
