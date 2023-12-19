@@ -29,7 +29,7 @@ favicon: 🎨
         <a href="https://twitter.com/kapahemanth" target="_blank">Twitter</a>
     </div>
 </div>
-</div>
+
 
 <style>
     .about-content ul {
@@ -48,7 +48,7 @@ favicon: 🎨
     .about-content a {
         display: inline-block;
         margin-bottom: 10px;
-        color: var(--primary-color); /* Use your primary color */
+        color: #00000; /* Use your primary color */
         text-decoration: none;
     }
 
