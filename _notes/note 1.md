@@ -3,7 +3,7 @@ title: Capetown Adventures
 category: Experience
 favicon: 🎨
 ---
-<img src="assets/images/Pasted image 20231218194111.png" alt="Description" style="width: 300px; height: auto;">
+<img src="assets/images/Pasted image 20231218194111.png" alt="Description" style="width: 500px; height: auto;">
 
 As I sit down to reflect on my first few days in Cape Town, memories rush through me like a river carving its way through a canyon. It all started on March 10th, when I embarked on my very first international flight from Hyderabad, India. The thrill of beginning a new chapter in my life was palpable, but so was the fear of the unknown.
 
