@@ -21,6 +21,14 @@ favicon: 🎨
             <li>🤺 State-level Fencer</li>
         </ul>     
     </div>
+
+    <div style="margin-top: 20px;">
+        <p>Connect with me on social media:</p>
+        <a href="https://www.instagram.com/hemanth.kapa/" target="_blank" style="margin-right: 10px;">Instagram</a>
+        <a href="https://www.linkedin.com/in/hemanth-kapa/" target="_blank" style="margin-right: 10px;">LinkedIn</a>
+        <a href="https://twitter.com/kapahemanth" target="_blank">Twitter</a>
+    </div>
+</div>
 </div>
 
 <style>
@@ -35,5 +43,16 @@ favicon: 🎨
     .about-content p, .about-content ul {
         font-size: 1em;
         line-height: 1.6;
+    }
+
+    .about-content a {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: var(--primary-color); /* Use your primary color */
+        text-decoration: none;
+    }
+
+    .about-content a:hover, .about-content a:focus {
+        text-decoration: underline;
     }
 </style>
