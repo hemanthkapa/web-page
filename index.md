@@ -7,6 +7,8 @@ id: home
 
 ---
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-top: 20px;">
     <div style="flex: 1; max-width: 700px;">
         <img src="assets/images/IMG_5994.jpeg" alt="Image" style="width: 100%; height: auto; border-radius: 10px;">
@@ -33,5 +35,30 @@ id: home
   .wrapper {
     max-width: 46em;
     margin: auto;
+  }
+
+  /* Flexbox Layout for Larger Screens */
+  div {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    gap: 30px;
+  }
+
+  div > div {
+    flex: 1; /* Each child takes equal space */
+  }
+
+  /* Image Styles */
+  img {
+    max-width: 100%; /* Ensure image is not larger than its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+  }
+
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    div > div {
+      flex-basis: 100%; /* Each child takes full width on smaller screens */
+    }
   }
 </style>
