@@ -8,7 +8,7 @@ As I sit down to reflect on my first few days in Cape Town, memories rush throug
 
 After a brief layover in Dubai, I finally met some of the companions with whom I would be spending the next three months in Cape Town. As we exchanged pleasantries and shared casual chats, a wave of anticipation mounted within us, building to a crescendo of excitement for the adventure that lay ahead. And then, we landed in Cape Town. The beauty of the city was truly mesmerising - the clear sky, stunning views of Table Mountain, and the refreshing sea breeze were all breathtaking. I felt grateful and lucky to have the opportunity to experience such natural splendour.
 
-![[Pasted image 20231218195338.png#lcenter|100]] ![[Pasted image 20231218195343.png#center|100]]
+![img2](assets/images/Pasted image 20231218195338.png)
 
 The Take Action Lab team welcomed us warmly, and I was escorted to my new home - the famous "Big Red House." It's amazing how everyone in the neighbourhood knows about it, from the apprenticeship supervisors to the street vendors. It almost felt like the house was a celebrity, and I couldn't help but chuckle at the thought.
 
