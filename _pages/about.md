@@ -58,37 +58,50 @@ favicon: 🎨
 }
 
 .about-content img {
-  width: 100%; /* Full width of its parent container */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px;
-  max-width: 400px; /* You can adjust this value */
-}
+        width: 100%; /* Full width of its parent container */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 10px;
+        max-width: 300px; /* Default max width for mobile */
+    }
 
+    @media (min-width: 768px) { /* Desktop and larger screens */
+        .about-content img {
+            max-width: 600px; /* Larger max width for desktop */
+        }
+
+        .about-content {
+            align-items: flex-start;
+        }
+
+        .about-content > div:first-child {
+            flex: 1;
+        }
+
+        .about-content > div:not(:first-child) {
+            flex: 2;
+        }
+    }
 
     .about-content p, .about-content ul {
-  font-size: 1em; /* Adjust if needed for smaller screens */
-  line-height: 1.6;
-}
+        font-size: 1em; 
+        line-height: 1.6;
+    }
 
-@media (max-width: 768px) {
-  .about-content p, .about-content ul {
-    font-size: 0.9em; /* Slightly smaller font size for mobile */
-  }
-}
+    @media (max-width: 768px) {
+        .about-content p, .about-content ul {
+            font-size: 0.9em; /* Smaller font size for mobile */
+        }
+    }
 
+    .social-media-links a {
+        color: #000000;
+        text-decoration: none;
+        padding: 5px; /* Easier to tap on mobile */
+    }
 
-
-    /* Existing styles ... */
-
-.social-media-links a {
-  color: #000000;
-  text-decoration: none;
-  padding: 5px; /* Easier to tap on mobile */
-}
-
-.social-media-links a:hover, .social-media-links a:focus {
-  text-decoration: underline;
-}
-
+    .social-media-links a:hover, .social-media-links a:focus {
+        text-decoration: underline;
+    }
+</style>
 
 </style>
