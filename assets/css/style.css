@@ -190,17 +190,19 @@ footer {
 .archive-table {
   width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
   margin-top: 20px;
+  background-color: rgba(156, 213, 56, .15); /* Light green background */
 }
 
 .archive-table th, .archive-table td {
-  border: 1px solid #ddd;
+  border: 1px solid rgba(156, 213, 56, .08); /* Light green border for cells */
   padding: 8px;
   text-align: left;
 }
 
 .archive-table thead {
-  background-color: #f2f2f2;
+  background-color: rgba(156, 213, 56, .25); /* Slightly darker green for header */
 }
 
 .archive-table th {
@@ -208,11 +210,11 @@ footer {
 }
 
 .archive-table tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: rgba(156, 213, 56, .08); /* Alternating row colors */
 }
 
 .archive-table a.internal-link {
-  color: #007bff;
+  color: #007bff; /* Color for internal links */
   text-decoration: none;
 }
 

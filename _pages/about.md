@@ -45,14 +45,16 @@ favicon: 🎨
         line-height: 1.6;
     }
 
-    .about-content a {
-        display: inline-block;
-        margin-bottom: 10px;
-        color:#000000;
+
+    /* Existing styles ... */
+
+    .social-media-links a {
+        color: #000000; /* Sets the text color to black */
         text-decoration: none;
     }
 
-    .about-content a:hover, .about-content a:focus {
+    .social-media-links a:hover, .social-media-links a:focus {
         text-decoration: underline;
     }
+
 </style>
